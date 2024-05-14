@@ -1,6 +1,3 @@
-# Log-Ingestor-and-Query-Interface
-
-
 ## Introduction
 
 This React application provides a user-friendly interface for querying and displaying log data. It enables users to filter and search log entries based on various criteria, presenting the results in a clear and organized manner.
@@ -13,8 +10,6 @@ The project structure for the React Log Query Application is organized into two 
 
 
 #### LogIngestor Folder
-
-
 The LogIngestor folder houses the server-side code responsible for handling log data ingestion and processing. This folder contains the following components:
 
 
@@ -26,11 +21,7 @@ The LogIngestor folder houses the server-side code responsible for handling log 
 
 
 #### QueryInterface Folder
-
-
-The QueryInterface folder contains the client-side code responsible for building and rendering the user interface (UI). This folder includes the following components:
-
-
+The QueryInterface folder contains the client-side code responsible for building and rendering the user interface (UI). This folder includes the following components
 • React Components: The React components are the building blocks of the UI, defining the visual elements and their interactions. They provide a declarative way to represent the UI and handle user input.
 
 
@@ -48,36 +39,18 @@ Separating the server-side code into the LogIngestor folder and the client-side 
 4. Deployment: Independent deployment of server and client components can be beneficial for production environments, allowing for updates and maintenance without affecting the entire application.
 
 
-#### Running the Application
-
-
-##### Prerequisites:
-
-
-• Node.js and npm installed on your system
-
-• MongoDB database
-
-• Postman
-
-
 ##### Instructions:
 
+1. Install dependencies on both folders
 
-1. Clone the project repository:  https://github.com/itssouray/Log-Ingestor-and-Query-Interface
-
-2. Navigate to the project directory
-
-3. Install dependencies on both folders
-
-4. Start the server side script:
+2. Start the server side script:
    
    i. cd LogIngestor/log_ingestor.js
    
    ⅰⅰ. nodemon log_ingestor
 
 
-5. Start the client side script:
+3. Start the client side script:
 
    ⅰ. cd QueryInterface
 
